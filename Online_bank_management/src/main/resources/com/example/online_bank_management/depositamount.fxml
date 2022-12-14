@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1b00b1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.online_bank_management.depositamountController">
+   <children>
+      <Label layoutX="278.0" text="KEB" textFill="#fff7f7">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="yes" layoutX="509.0" layoutY="264.0" mnemonicParsing="false" onAction="#yesOnAction" prefHeight="32.0" prefWidth="80.0" style="-fx-background-color: #1bafff;" text="Yes" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="no" layoutX="509.0" layoutY="322.0" mnemonicParsing="false" onAction="#noOnAction" prefHeight="32.0" prefWidth="80.0" style="-fx-background-color: #1bafff;" text="No" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField alignment="CENTER" layoutX="218.0" layoutY="163.0" prefHeight="38.0" prefWidth="170.0" promptText="Rs 0" />
+      <Label alignment="TOP_CENTER" layoutY="64.0" prefHeight="32.0" prefWidth="620.0" style="-fx-background-color: #59e0ef;" text="Please Enter Amount." textFill="#2600ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutY="87.0" prefHeight="32.0" prefWidth="620.0" style="-fx-background-color: #59e0ef;" text="(Cash Available : Rs100,Rs500,Rs2000)" textFill="#2600ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="depositamount" layoutX="149.0" layoutY="260.0" prefHeight="32.0" prefWidth="325.0" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

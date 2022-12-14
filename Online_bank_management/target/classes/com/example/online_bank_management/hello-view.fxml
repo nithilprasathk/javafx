@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.online_bank_management.HelloController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="400.0" prefWidth="247.0" style="-fx-background-color: #000;">
+         <children>
+            <Label layoutX="74.0" layoutY="149.0" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="45.0" layoutY="161.0" text="WELCOME BACK !!" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="usernametextfield" layoutX="391.0" layoutY="152.0" promptText="customer ID" />
+      <PasswordField fx:id="passwordpasswordfield" layoutX="391.0" layoutY="213.0" promptText="password" />
+      <Label layoutX="280.0" layoutY="152.0" prefHeight="25.0" prefWidth="100.0" text="CUSTOMER ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="216.0" text="PASSWORD">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginbutton" layoutX="330.0" layoutY="291.0" mnemonicParsing="false" onAction="#loginbuttonOnAction" style="-fx-background-color: #000;" text="Login" textFill="WHITE" />
+      <Button fx:id="cancelbutton" layoutX="466.0" layoutY="291.0" mnemonicParsing="false" onAction="#cancelbuttonOnAction" style="-fx-background-color: #000;" text="cancel" textFill="WHITE" />
+      <Label fx:id="loginmessagelabel" layoutX="320.0" layoutY="63.0" prefHeight="20.0" prefWidth="267.0" textFill="#fc2121" />
+      <Label layoutX="302.0" layoutY="37.0" text="Kongu Engineering Bank">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

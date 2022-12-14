@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1b00b1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.online_bank_management.dashboardController">
+   <children>
+      <Button fx:id="cashwithdraw" layoutX="106.0" layoutY="150.0" mnemonicParsing="false" onAction="#cashwithdrawOnAction" prefHeight="25.0" prefWidth="147.0" style="-fx-background-color: #1bafff;" text="Cash Withdrawal" textFill="WHITE" />
+      <Button fx:id="deposit" layoutX="106.0" layoutY="229.0" mnemonicParsing="false" onAction="#depositOnAction" prefHeight="25.0" prefWidth="147.0" style="-fx-background-color: #1bafff;" text="Deposit" textFill="#fffdfd" />
+      <Button layoutX="348.0" layoutY="229.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="147.0" style="-fx-background-color: #1bafff;" text="PIN Change" textFill="#fffcfc" />
+      <Button layoutX="348.0" layoutY="308.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="147.0" style="-fx-background-color: #1bafff;" text="Other Services" textFill="WHITE" />
+      <Button layoutX="106.0" layoutY="308.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="147.0" style="-fx-background-color: #1bafff;" text="Balance Inquiry" textFill="WHITE" />
+      <Button layoutX="348.0" layoutY="148.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="147.0" style="-fx-background-color: #1bafff;" text="Fund Transfer" textFill="#fdfdfd" />
+      <Label alignment="TOP_CENTER" layoutX="2.0" layoutY="36.0" prefHeight="32.0" prefWidth="600.0" style="-fx-background-color: #59e0ef;" textFill="#2600ff">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="30.0" text="KEB" textFill="#fff7f7">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
